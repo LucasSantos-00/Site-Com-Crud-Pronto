@@ -76,6 +76,7 @@ class ProdutoController extends Controller
     }
 
     //Atualiza o contato na base de dados
+
     public function update(Produto $produto){
 
         $success = $this->model->update($produto);
